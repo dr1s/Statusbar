@@ -1,4 +1,4 @@
-command: "echo $(x=$(/opt/local/bin/chunkc tiling::query -d id);echo $(/opt/local/bin/chunkc tiling::query -D $(/opt/local/bin/chunkc tiling::query -M $x))\",$x\")"
+command: "echo $(x=$(/usr/local/bin/chunkc tiling::query -d id);echo $(/usr/local/bin/chunkc tiling::query -D $(/usr/local/bin/chunkc tiling::query -M $x))\",$x\")"
 
 refreshFrequency: 1000
 
